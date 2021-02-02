@@ -1,0 +1,60 @@
+html
+{
+    background-color: #34b2c0;
+    color: #efdab9;
+    font-weight: 200;
+    width: 100%;
+    background-image: url("./bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 100%;
+}
+
+@media only screen and (max-width: 943px)
+{
+    html
+    {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-height: 680px)
+{
+    html
+    {
+        background-size: cover;
+        background-position: center;
+        background-position: top;
+    }
+}
+
+body
+{
+    margin: auto;
+    min-width: 500px;
+    max-width: 1000px;
+}
+
+.site-title
+{
+    font-weight:100;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+}
+
+.site-container
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 20px;
+}
+
+a
+{
+    color: #efdab9;
+}
+a:hover
+{
+    color: #556df5;
+}
