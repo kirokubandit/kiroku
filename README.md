@@ -1,0 +1,2 @@
+# kiroku
+kiroku.net homepage
