@@ -19,20 +19,26 @@ html
     }
 }
 
-@media only screen and (max-height: 680px)
+@media only screen and (max-height: 1280px)
+{
+    html
+    {
+        background-position: top left;
+    }
+}
+
+@media only screen and (max-height: 820px)
 {
     html
     {
         background-size: cover;
-        background-position: center;
-        background-position: top;
+        background-position: top center;
     }
 }
 
 body
 {
     margin: auto;
-    min-width: 500px;
     max-width: 1000px;
 }
 
